@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "watchpack": "^2.2.0"
+  },
+  "overrides": {
+    "form-data": "^4.0.0"
   }
 }
