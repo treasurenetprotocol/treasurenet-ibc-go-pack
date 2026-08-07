@@ -16,7 +16,7 @@ COPY Makefile .
 
 RUN make build
 
-FROM ubuntu:20.04
+FROM ubuntu:26.04
 
 COPY --from=builder /go/build/simd /bin/simd
 
